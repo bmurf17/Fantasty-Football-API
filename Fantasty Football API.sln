@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fantasty Football API", "Fantasty Football API\Fantasty Football API.csproj", "{A622DC4D-0219-4324-93E0-C48B94B3011E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A622DC4D-0219-4324-93E0-C48B94B3011E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A622DC4D-0219-4324-93E0-C48B94B3011E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A622DC4D-0219-4324-93E0-C48B94B3011E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A622DC4D-0219-4324-93E0-C48B94B3011E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB707F52-5ED1-4288-B0C5-8F3E56C079B6}
+	EndGlobalSection
+EndGlobal
