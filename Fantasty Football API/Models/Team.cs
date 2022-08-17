@@ -3,6 +3,8 @@
     public class Team
     {
         public int Id { get; set; }
+        public int Cols { get; set; }
+        public int Rows { get; set; }
         public string Name { get; set; }
         public string Record { get; set; }
         public string Path { get; set; }

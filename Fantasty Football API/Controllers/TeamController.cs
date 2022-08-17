@@ -8,10 +8,13 @@ namespace Fantasty_Football_API.Controllers
     public class TeamController : Controller
     {
         [HttpGet]
-        public async Task<ActionResult<Team>> Get()
+        public async Task<ActionResult<List<Team>>> Get()
         {
-            var team = new Team { Id = 1, Name = "Tyler's League", Record = "0-0", Path="tyler" };
-            return Ok(team);
+            Player[] players = Array.Empty<Player>();
+            List<Team> teams = new List<Team>();
+            var team = new Team { Id = 1, Name = "Tyler's League", Path = "tyler", Record = "0-0", Cols=2, Rows=1,  Players= players };
+            teams.Add(team);
+            return Ok(teams);
         }
     }
 }
