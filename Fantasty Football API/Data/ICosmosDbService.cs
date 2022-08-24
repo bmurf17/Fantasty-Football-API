@@ -5,5 +5,6 @@ namespace Fantasty_Football_API.Data
     public interface ICosmosDbService
     {
         public Task<List<Team>> GetTeams();
+        public Task<List<Player>> GetPlayers();
     }
 }

@@ -17,6 +17,7 @@ builder.Services.AddSingleton<ICosmosDbService>(ConfigCosmos.InitializeCosmosDbC
 
 // add service implemntations
 builder.Services.AddSingleton<ITeamService, TeamService>();
+builder.Services.AddSingleton<IPlayerService, PlayerService>();
 
 
 var app = builder.Build();
